@@ -17,6 +17,7 @@
 // getAddItem.style.fontWeight = 'bold'
 // getAddItem.style.color = 'green'
 
+//  BY CLASSNAME
 var items = document.getElementsByClassName('list-group-item');
 var allItems = document.getElementsByClassName('list-group')
 
@@ -32,3 +33,11 @@ items[2].style.backgroundColor = 'green'
 for(let i=0; i<items.length; i++){
     items[i].style.fontWeight = 'bold'
 }
+
+// BY TAGNAME
+// let newItem = document.getElementsByClassName('new-item');
+// newItem[0].textContent = 'Maserati';
+
+let li = document.getElementsByTagName('li');
+li[4].textContent = 'Porsche';
+

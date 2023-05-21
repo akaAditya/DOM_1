@@ -73,7 +73,7 @@
 
 // TRAVERSING THE DOM
 
-var itemList = document.querySelector('#items');
+// var itemList = document.querySelector('#items');
 
 // parentNode
 // console.log(itemList.parentNode);
@@ -124,34 +124,62 @@ var itemList = document.querySelector('#items');
 // createElement
 
 // create a div
-var newDiv = document.createElement('div');
+// var newDiv = document.createElement('div');
 
-// add className
-newDiv.className = 'hello';
+// // add className
+// newDiv.className = 'hello';
 
-// add id
-newDiv.id = 'hello1';
+// // add id
+// newDiv.id = 'hello1';
 
-// add attribute
-newDiv.setAttribute('title', 'Hello div');
+// // add attribute
+// newDiv.setAttribute('title', 'Hello div');
 
-// create text node
-var newDivText = document.createTextNode('Hello World');
+// // create text node
+// var newDivText = document.createTextNode('Hello World');
 
-// add text to div
-newDiv.appendChild(newDivText);
+// // add text to div
+// newDiv.appendChild(newDivText);
 
-// var container = document.querySelector('header .container ');
-// var h1 = document.querySelector('header h1');
+// // var container = document.querySelector('header .container ');
+// // var h1 = document.querySelector('header h1');
 
-// // console.log(newDiv);
-// container.insertBefore(newDiv, h1)
+// // // console.log(newDiv);
+// // container.insertBefore(newDiv, h1)
 
 
-// add hello world before item 1
+// // add hello world before item 1
 
-var newdiv2 = document.querySelector('body #items');
-var li = document.querySelector('body li');
+// var newdiv2 = document.querySelector('body #items');
+// var li = document.querySelector('body li');
 
-console.log(newDiv);   
-newdiv2.insertBefore(newDiv, li);
+// console.log(newDiv);   
+// newdiv2.insertBefore(newDiv, li);
+
+// Add eventListner
+// var button = document.getElementById('button').addEventListener('click', buttonCLick);
+
+// function buttonCLick(e){
+    // console.log('button clicked');
+    // document.getElementById("header-title").textContent = 'Changed';
+    // document.querySelector('#main').style.backgroundColor = 'yellow';
+
+    // console.log(e.target);
+    // console.log(e.target.id);
+    // console.log(e.target.className);
+    // console.log(e.target.classList);
+
+    // var output = document.getElementById('output');
+    // output.innerHTML = '<h3>'+ e.target.id+'</h2>'
+
+// }
+
+// var button = document.getElementById('button');
+
+// button.addEventListener('click', runEvent);
+// button.addEventListener('mousedown', runEvent)
+// button.addEventListener('mouseup', runEvent);
+
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type);
+// }
